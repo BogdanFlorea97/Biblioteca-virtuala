@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-image: url(../bookshelf1.jpg);
+font-family:Arial, verdana, "sans-serif";
+
+}
+
+#container {
+margin:0px auto;
+width:90%;
+/*/background-color:#fff;/*/
+padding:10px;
+border-radius:10px;
+}
+
+#header {
+background: #0B486B;  
+background: -webkit-linear-gradient(to right, #F56217, #0B486B);
+background: linear-gradient(to right, #F56217, #0B486B); 
+height:300px;
+
+
+}
+#header h1{
+	color:#ff944d;
+	text-align:right;
+	font-size:55px;
+	margin-top:1px;
+	
+}
+
+#left{
+	float:left;
+	width:250px;
+	margin-top:10px;
+}
+
+
+#continut {
+	width:80%;
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	padding:10px;
+}
+
+#continut h2
+{
+	text-align:center;
+	width:30%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#continutcv {
+	margin-top:10px;
+	padding:10px;
+}
+
+#footer {
+text-align:center;
+}
+#nav{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#nav li{
+float:left;
+margin-left:10px;
+text-align:center;
+vertical-align:center;
+margin-top:10px;
+width:125px;
+background-color:#0B486B;
+color:#C6F34A;
+height:28px;
+border-radius:5px;
+}
+
+#nav ul {
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+
+
+#nav li a:link, #nav li a:visited {
+color:#ff944d;
+height:28px;
+text-decoration:none;
+font-size:17px;
+}
+
+#nav li a:hover{
+color:#0B486B;
+background-color:#ff944d;
+text-decoration:none;
+display:block;
+border-radius:5px;
+}
+#clear{
+clear:both;
+	
+}
+
+.clearr{
+	clear:both;
+}
+
+form {
+  font:100% verdana,arial,sans-serif;
+  margin: 0;
+  padding: 0;
+margin-left: 25%;
+margin-right:25%;
+width: 50%;  
+}
+
+
+
+form fieldset legend {
+	font-size:1.1em;
+}
+
+form label { 
+	display: block;
+	float: left; 
+	width: 150px; 
+	padding: 0; 
+	margin: 5px 0 0;
+	text-align: right; 
+}
+
+
+
+form input, form textarea {
+	width:auto;     
+	float:center;
+
+}
+
+form input#reset {
+	margin-left:0px; 
+}
+
+textarea { overflow: auto; }
+
+
+form br {
+	clear:left; 
+}
+
+#submitbtn
+{
+   width: 150px;
+  text-align: center;
+  margin:0 auto;
+  display:block;
+}
+
+a {
+  color: #333333;
+  transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+}
+ 
+a:hover {
+  color: #e53939;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	color:#C6F34A;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#0B486B;
+    min-width: 125px;
+    z-index: 1;
+	border-radius:5px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    display: block;
+	margin-top:5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+	margin-top:10px;
+}
+
+span {
+	cursor:pointer;
+	display:block;
+	color:rgba(55,243,222,0.9);
+}
